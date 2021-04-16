@@ -1,16 +1,29 @@
-header{
-  
-  background-color:  greenyellow;
-}
-nav{
-  
-  background-color: green;
-}
-aside.uno{
+ .contenedor1 {
+                background-color: lightgreen;
+                width: 300px;
+                height: 150px;
+                line-height: 150px;
+                text-align: center;
+                
+        }
+.contenido1 {
+              background-color: lightblue;
+                width: 200px;
+                height: 100px;
+                line-height: 1;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: left;
+
+        }
+
+
+.uno{
   background-color: orange;
   float: left;
+  
 }
-aside.dos{
+.dos{
   background-color: orange;
   float: right;
 }

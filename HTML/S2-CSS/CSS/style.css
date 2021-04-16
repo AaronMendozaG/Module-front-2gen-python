@@ -1,0 +1,16 @@
+/*TAG*/
+h2{
+  color: blueviolet;
+}
+/*CLASE*/
+.subtitle{
+  color:blue
+}
+/*ID*/
+#myId {
+  color: aquamarine;
+}
+
+#myId a{
+  color: burlywood;
+}
