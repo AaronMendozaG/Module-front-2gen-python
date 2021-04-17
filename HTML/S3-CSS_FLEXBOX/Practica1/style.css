@@ -1,0 +1,28 @@
+*{
+  box-sizing: content-box;
+  color: aliceblue;
+}
+.section_flex{
+  background-color: rgb(48, 25, 131);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav_flex1{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+h1{
+  font-size: 25px;
+}
+.nav_flex{
+
+  display: flex;
+  
+  justify-content: space-between;
+}
+

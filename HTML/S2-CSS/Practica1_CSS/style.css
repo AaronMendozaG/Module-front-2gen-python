@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 header{
@@ -23,6 +24,7 @@ aside.aside{
   background-color: rgb(238, 177, 63);
   width: 15%;
   vertical-align: top;
+  text-align: center;
 }
 
 main{
