@@ -1,0 +1,135 @@
+*{
+  box-sizing:content-box;
+  
+}
+
+.header-flex{
+  display: flex;
+  background-color: rgb(95, 231, 124);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.avatar{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(38, 116, 92);
+  border-radius: 10px;
+}
+
+.main-flex{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.card{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 15px 0;
+}
+.card .title{
+  height: 15px;
+  width: 110px;
+  background-color: white;
+  border-radius: 10px;
+  margin:10px 0;
+}
+.card .text{
+  height: 8px;
+  width: 220px;
+  background-color: white;
+  border-radius: 10px;
+  margin:5px 0;
+}
+
+.circles{
+  display: flex;
+  margin:10px 0;
+}
+.circle{
+  background-color: white;
+  height: 33px;
+  width: 33px;
+  margin: 0 10px;
+  border-radius: 50%;
+
+}
+.footer-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+   background-color: rgb(95, 231, 124);
+   border-radius: 10px;
+   height: 500px;
+}
+
+.avatar2{
+  background-color: rgb(38, 116, 92);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.green{
+  background-color: rgb(38, 116, 92);
+}
+.title2{
+  height: 25px;
+  width: 220px;
+  background-color: rgb(38, 116, 92);
+  border-radius: 5px;
+  margin-top:70px;
+}
+
+.main-flex .card:nth-of-type(1){
+  background-color:rgb(233, 200, 53);
+}
+.main-flex .card:nth-of-type(2){
+  background-color:rgb(221, 135, 36);
+}
+.main-flex .card:nth-of-type(3){
+  background-color:rgb(219, 77, 77);
+}
+.main-flex .card:nth-of-type(4){
+  background-color:rgb(121, 57, 146)
+}
+
+@media screen and (min-width: 768px) {
+
+  .main-flex{
+    justify-content: space-between;
+  padding-top: 40px;
+  padding-left:40px;
+  padding-right: 40px;
+}
+
+  .card{
+    align-items: flex-start;
+    padding-left: 20px;
+  height: 150px;
+  width: 300px;
+  
+}
+.circles{
+  margin-left: 140px;
+}
+ .footer-flex{
+   flex-direction: row;
+   padding-bottom: 70px;
+   align-items:flex-end;
+   height: 150px;
+ }
+
+ .circles2{
+   margin-top: 90px;
+ }
+  
+}
