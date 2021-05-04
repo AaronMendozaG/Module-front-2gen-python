@@ -1,0 +1,53 @@
+.aside1{
+  display: inline-block;
+  width: 70%;
+  height: 80%s;
+}
+.square{
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: teal;
+}
+.title-nav{
+  background-color: teal;
+  height: 17px;
+  width: 100px;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title{
+  background-color: white;
+  height: 14px;
+  width: 140px;
+  border-radius: 2px;
+  margin: 10px 0;
+  margin-top: 20px;
+}
+.parrafo{
+  background-color: white;
+  height: 8px;
+  width: 190px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+.circles{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.circle-nav{
+  height: 40px;
+  width: 40px;
+  background-color: teal;
+  border-radius: 100%;
+}
